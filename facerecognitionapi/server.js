@@ -14,10 +14,10 @@ import {handleEntry,handleApiCall} from './controllers/entry.js'
 const db = knex ({
     client: 'pg',
     connection: {
-      host : '127.0.0.1',
-      user : 'postgres',
-      password : 'test',
-      database : 'smart-brain'
+      host : 'dpg-cgrutl02qv2dcba2korg-a.singapore-postgres.render.com',
+      user : 'smart_brain_7ebf_user',
+      password : 'Ud3A8W43nTB6s0jYEG5F6kRrzzPiLdYy',
+      database : 'smart_brain_7ebf'
     }
   });
 
