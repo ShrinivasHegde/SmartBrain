@@ -14,7 +14,9 @@ import {handleEntry,handleApiCall} from './controllers/entry.js'
 const db = knex ({
     client: 'pg',
     connection: {
+      connectionString:'postgres://smart_brain_7ebf_user:Ud3A8W43nTB6s0jYEG5F6kRrzzPiLdYy@dpg-cgrutl02qv2dcba2korg-a/smart_brain_7ebf',
       host : 'dpg-cgrutl02qv2dcba2korg-a.singapore-postgres.render.com',
+      port: 5432,
       user : 'smart_brain_7ebf_user',
       password : 'Ud3A8W43nTB6s0jYEG5F6kRrzzPiLdYy',
       database : 'smart_brain_7ebf'
