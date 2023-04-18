@@ -11,14 +11,9 @@ const ImageLinkForm = ({onInputChange,onButtonSubmit}) =>{
                 <div className='center' >
                     <div className='form center w-60 pa4 br3 shadow-5'>
                         <input className='f4 pa2 w-70 center ' 
-                               id="choose-file" 
-                               name="choose-file"
-                               accept="image/*" 
-                               type='file' 
-                               onChange={onInputChange}
-                               
+                               type='text' 
+                               onChange={onInputChange} 
                         /> 
-                        <label for="choose-file">Choose File</label>
                         <button className='w-30 grow f4 link ph3 pv2 dib black bg-light-red ml2' 
                                 onClick={onButtonSubmit}>
                                 Detect
